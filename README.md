@@ -10,4 +10,4 @@
 
 5.0 Wersja ma się skalować na tablet
 
-kod: [folder](https://github.com/homosum1/iOS-programowanie/zadanie-01)
+kod: [folder](https://github.com/homosum1/iOS-programowanie/tree/e7543cc0ca11f58bda46a599340783a48771ab62/zadanie-01)
