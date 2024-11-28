@@ -15,7 +15,7 @@ kod: [folder](https://github.com/homosum1/iOS-programowanie/tree/e7543cc0ca11f58
 
 --- 
 
-Zad 2 Lista zadań
+### Zad 2 Lista zadań
 
 ✅ 3.0 wyświetla listę z góry określonych zadań (ArrayList)
 
@@ -27,7 +27,7 @@ Zad 2 Lista zadań
 
 ✅ 5.0 wyświetlanie statusu na liście zadań
 
-kod: [folder](https://github.com/homosum1/iOS-programowanie/tree/e7543cc0ca11f58bda46a599340783a48771ab62/zadanie-01)
+kod: [folder](https://github.com/homosum1/iOS-programowanie/tree/e7543cc0ca11f58bda46a599340783a48771ab62/zadanie-02)
 
 ---
 
