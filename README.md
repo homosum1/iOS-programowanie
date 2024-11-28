@@ -10,7 +10,7 @@
 
 5.0 Wersja ma się skalować na tablet
 
-kod: [folder](https://github.com/homosum1/iOS-programowanie/tree/e7543cc0ca11f58bda46a599340783a48771ab62/zadanie-01)
+kod: [folder](https://github.com/homosum1/iOS-programowanie/tree/main/zadanie-01)
 
 
 --- 
@@ -27,7 +27,7 @@ kod: [folder](https://github.com/homosum1/iOS-programowanie/tree/e7543cc0ca11f58
 
 ✅ 5.0 wyświetlanie statusu na liście zadań
 
-kod: [folder]([https://github.com/homosum1/iOS-programowanie/tree/e7543cc0ca11f58bda46a599340783a48771ab62/zadanie-02](https://github.com/homosum1/iOS-programowanie/tree/main/zadanie-02))
+kod: [folder](https://github.com/homosum1/iOS-programowanie/tree/main/zadanie-02)
 
 ---
 
