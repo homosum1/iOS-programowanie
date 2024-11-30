@@ -10,4 +10,39 @@
 
 5.0 Wersja ma się skalować na tablet
 
-kod: [folder](https://github.com/homosum1/iOS-programowanie/tree/e7543cc0ca11f58bda46a599340783a48771ab62/zadanie-01)
+kod: [folder](https://github.com/homosum1/iOS-programowanie/tree/main/zadanie-01)
+
+
+--- 
+
+### Zad 2 Lista zadań
+
+✅ 3.0 wyświetla listę z góry określonych zadań (ArrayList)
+
+✅ 3.5 wyswietlanie obrazu na widoku zadania
+
+✅ 4.0 usuwanie (swipe) zadań
+
+✅ 4.5 zmiana statusu zadania (w tym modyfikacja struktury)
+
+✅ 5.0 wyświetlanie statusu na liście zadań
+
+kod: [folder](https://github.com/homosum1/iOS-programowanie/tree/main/zadanie-02)
+
+---
+
+### Zad 3 Lista zakupów
+
+✅ 3.0 stworzenie modelów Produktów oraz Kategorii w Core Data
+
+✅ 3.5 załadować dane przy uruchomieniu aplikacji (Fixtures)
+
+✅ 4.0 stworzyć listę produktów z podstroną opisu produktu na nowym widoku (dane z core data)
+
+✅ 4.5 opcja dodania produktu do koszyka (tabview)
+
+✅ 5.0 dodanie więcej niż jeden produkt tego samego typu do koszyka
+
+kod: [folder](https://github.com/homosum1/iOS-programowanie/tree/main/zadanie-03)
+
+---
