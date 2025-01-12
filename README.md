@@ -61,3 +61,34 @@ listach
 ✅ 5.0 dodawanie produktów z poziomu aplikacji mobilnej
 
 kod: [folder](https://github.com/homosum1/iOS-programowanie/tree/main/zadanie-04)
+
+---
+
+### Zad 5 Oauth
+
+3.0 logowanie przez aplikację serwerową
+
+3.5 rejestracja przez aplikację serwerową
+
+4.0 logowanie via Google OAuth2
+
+4.5 logowanie via Facebook lub Github OAuth2
+
+5.0 zapisywanie danych logowania OAuth2 po stronie serwera
+
+kod: [folder](https://github.com/homosum1/iOS-programowanie/tree/main/zadanie-05)
+
+---
+
+### Zad 6 Płatności
+
+3.0 formularz płatności oraz mockowanie przez aplikację serwerową
+
+3.5 model płatności lokalnie
+
+4.0 lista zakupionych (opłaconych) produktów + model
+
+4.5 wdrożenie stripe'a
+
+5.0 dodanie skanowania kart
+
