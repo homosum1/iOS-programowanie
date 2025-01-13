@@ -92,3 +92,5 @@ kod: [folder](https://github.com/homosum1/iOS-programowanie/tree/main/zadanie-05
 
    5.0 dodanie skanowania kart
 
+kod: [folder](https://github.com/homosum1/iOS-programowanie/tree/main/zadanie-06)
+
