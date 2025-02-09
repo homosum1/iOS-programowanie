@@ -94,3 +94,12 @@ kod: [folder](https://github.com/homosum1/iOS-programowanie/tree/main/zadanie-05
 
 kod: [folder](https://github.com/homosum1/iOS-programowanie/tree/main/zadanie-06)
 
+---
+
+### Zad 7 Testy
+
+3.0 stworzyć 30 asercji testów funkcjonalnych
+3.5 stworzyć dodatkowo 20 asercji testów jednostkowych
+4.0 stworzyć mocki modelu produktów
+4.5 stworzyć mocki modelu kategorii
+5.0 dodać fixturki
