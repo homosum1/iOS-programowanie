@@ -4,6 +4,10 @@ import jwt from 'jsonwebtoken';
 import morgan from 'morgan';
 import axios from 'axios';
 import querystring from 'querystring';
+import dotenv from 'dotenv';
+
+dotenv.config();
+
 
 const JWT_SECRET = 'dummydumdum';
 const PORT = 3000;
@@ -109,31 +113,45 @@ app.get('/callback', async (req, res) => {
     const code = req.query.code;
 
     if (!code) {
-        console.log('Brak kodu autoryzacji');
-        return res.status(400).send()
+        console.log('Missing authorization code');
+        return res.status(400).json({ error: 'Missing authorization code' });
+    }
+
+    if (!clientId || !clientSecret) {
+        console.log('Missing client credentials');
+        return res.status(500).json({ error: 'Missing client credentials' });
     }
 
     try {
-        const response = await axios.post('https://oauth2.googleapis.com/token', querystring.stringify({
-            code: code,
-            client_id: clientId,
-            client_secret: clientSecret,
-            redirect_uri: redirectUri,
-            grant_type: 'authorization_code'
-        }));
+        const response = await axios.post(
+            'https://oauth2.googleapis.com/token',
+            querystring.stringify({
+                code: code,
+                client_id: clientId,
+                client_secret: clientSecret,
+                redirect_uri: redirectUri,
+                grant_type: 'authorization_code'
+            }),
+            {
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded'
+                }
+            }
+        );
 
-        const { access_token } = response.data;
+        const { access_token, id_token } = response.data;
 
-  
-        console.log('Access token:', access_token);
+        console.log('Google Access Token:', access_token);
+        console.log('Google ID Token:', id_token);
 
-        res.status(200).send();
+        return res.status(200).json({ access_token, id_token });
 
     } catch (error) {
-        console.log('token error', error);
-        res.status(500).send();
+        console.log('Token exchange error:', error.response?.data || error.message);
+        return res.status(500).json({ error: 'Failed to exchange code for token' });
     }
 });
+
 
 app.get('/github-callback', async (req, res) => {
     const code = req.query.code;
