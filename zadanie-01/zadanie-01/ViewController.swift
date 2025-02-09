@@ -95,7 +95,15 @@ class ViewController: UIViewController {
                 label_button.text = "Err"
                 break
             }
-            
+        case "pow":
+            currentNum = Darwin.pow(previousNum, currentNum)
+        case "log":
+            if currentNum > 0 {
+                currentNum = log10(currentNum)
+            } else {
+                label_button.text = "Err"
+                return
+            }
         default:
             break
         }
@@ -165,6 +173,17 @@ class ViewController: UIViewController {
     @IBAction func nine_button(_ sender: Any) {
         addNumber(9)
     }
+    
+    
+    @IBAction func pow(_ sender: Any) {
+        setOperation("pow")
+    }
+    
+    @IBAction func log(_ sender: Any) {
+        setOperation("log")
+        equal_button(sender)
+    }
+    
     
     
     func formatNumber(_ number: Double) -> String {
